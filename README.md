@@ -35,7 +35,7 @@ As you can see in the images model can detect the roads in the very complex road
 
 
 ## References
-https://pyimagesearch.com/ <br />
+
 Minaee, S., Boykov, Y. Y., Porikli, F., Plaza, A. J., Kehtarnavaz, N., & Terzopoulos, D. (2021). 
 “Image segmentation using deep learning: A survey”. IEEE transactions on pattern analysis and machine 
 intelligence <br />
@@ -48,6 +48,6 @@ Zhang, Z., Liu, Q., & Wang, Y. (2018). Road extraction by deep residual u-net. I
 and Remote Sensing Letters, 15(5), 749-753. (2018). Road extraction by deep residual u-net. IEEE 
 Geoscience and Remote Sensing Letters, 15(5), 749-753. <br />
 Piao S, Jiaming L (2019)."Accuracy improvement of UNet based on dilated convolution." In Journal 
-of Physics: Conference Series, vol. 1345, no. 5, p. 052066. IOP Publishing
-
+of Physics: Conference Series, vol. 1345, no. 5, p. 052066. IOP Publishing <br />
+https://pyimagesearch.com/
 
