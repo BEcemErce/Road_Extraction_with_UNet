@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 16 20:28:10 2022
-
-@author: Sade
 """
 
 class EarlyStopping():
