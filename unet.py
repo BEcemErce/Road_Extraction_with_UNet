@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 16 18:11:54 2022
 """
 from torch.nn import ConvTranspose2d
 from torch.nn import Conv2d
