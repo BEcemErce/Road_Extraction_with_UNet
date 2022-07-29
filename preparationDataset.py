@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 16 18:03:34 2022
 
-@author: Sade
 """
-#   This code is obtained from https://pyimagesearch.com/
-#   The main purpose of this module is returning the tuple of the every image and its mask.
 
 from torch.utils.data import Dataset
 import cv2
