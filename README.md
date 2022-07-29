@@ -25,7 +25,9 @@ Data URL: https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dat
 
 ## Implementation
 
-In the original U-Net architecture there are 4 convolution blocks in the each decoder and encoder parts. In this study, lots of architecture structures including original U-Net were applied and then the best arhitecture was selected which has the 3 convolution blocks in the encoder and decoder. You can find an implementation of this model in the **implementation.ipynb**. The model was trained with learning rate 2e-4 and batch size 8. The IOU score of this model was 0.43. The masks that was predicted by the model are shown in below.
+In the original U-Net architecture there are 4 convolution blocks in each decoder and encoder part. In this study, lots of architectural structures including the original U-Net were applied and then the best architecture was selected which has the 3 convolution blocks in the encoder and decoder. In the encoder part, there is 2 convolution layers with the 3X3 kernel size in each block. Then, there is max-pooling operation with the 2X2 filter. For the downsampling process, the transposed convolution layers with the 2X2 filter size are used.
+
+You can find an implementation of this model in the **implementation.ipynb**. The model was trained with learning rate 2e-4 and batch size 8. The IOU score of this model was 0.43. The masks that was predicted by the model are shown in below.
 
 ![image](https://user-images.githubusercontent.com/66211576/180850884-4727faeb-21e9-4345-b41e-5feac8ff1050.png)
 
